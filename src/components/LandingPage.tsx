@@ -1,5 +1,5 @@
 import React from 'react';
-import { Smartphone, Apple, PlayCircle, CheckCircle, ArrowRight, Calendar, Shield, Zap, Clock, Users, Lock, Star } from 'lucide-react';
+import { Smartphone, Apple, Calendar, Clock, Users, Lock } from 'lucide-react';
 import { motion } from 'motion/react';
 
 interface LandingPageProps {
@@ -166,37 +166,6 @@ export default function LandingPage({ onLaunchWeb }: LandingPageProps) {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="px-6 py-24 max-w-7xl mx-auto">
-        <div className="bg-brushed-gold rounded-[48px] p-12 md:p-24 text-center text-black relative overflow-hidden shadow-2xl">
-          <h2 className="text-4xl md:text-6xl font-serif font-bold mb-12 relative z-10">Tame Your To-Do List</h2>
-          
-          <div className="flex flex-col sm:flex-row gap-6 justify-center relative z-10">
-            <button 
-              onClick={() => alert('MyTask app will under constration')}
-              className="flex items-center justify-center gap-3 bg-black text-white px-10 py-5 rounded-[24px] font-bold hover:bg-gray-900 transition-all shadow-xl"
-            >
-              <Apple size={24} />
-              <div className="text-left leading-tight">
-                <p className="text-[10px] uppercase font-bold">Available for</p>
-                <p className="text-lg">iOS</p>
-              </div>
-            </button>
-            <a 
-              href="/MyTask.apk" 
-              download="MyTask.apk"
-              className="flex items-center justify-center gap-3 bg-black text-white px-10 py-5 rounded-[24px] font-bold hover:bg-gray-900 transition-all shadow-xl"
-            >
-              <Smartphone size={24} />
-              <div className="text-left leading-tight">
-                <p className="text-[10px] uppercase font-bold">Download for</p>
-                <p className="text-lg">Android</p>
-              </div>
-            </a>
           </div>
         </div>
       </section>
