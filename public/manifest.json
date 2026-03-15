@@ -1,0 +1,16 @@
+{
+  "name": "MyTask",
+  "short_name": "MyTask",
+  "description": "Focus. Flow. Personal Task Manager.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121417",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "/MyTask.apk",
+      "sizes": "any",
+      "type": "application/vnd.android.package-archive"
+    }
+  ]
+}
